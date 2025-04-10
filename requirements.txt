@@ -1,0 +1,10 @@
+flask
+gTTS
+flasgger
+python-dotenv
+gunicorn
+dotenv
+cloudinary
+psycopg2-binary
+flask-sqlalchemy
+flask-cors

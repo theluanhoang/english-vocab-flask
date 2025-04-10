@@ -1,0 +1,40 @@
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables file
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Dependency directories (if you use pipenv or other tools)
+Pipfile.lock
+
+# Flask-specific ignores
+instance/
+*.sqlite
+
+# Other common ignores
+*.bak
+*.gho
+*.orig
+*.tmp

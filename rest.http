@@ -1,0 +1,12 @@
+### GET TEXT-TO-SPEECH
+POST http://localhost:5000/api/tts
+Content-Type: application/json
+
+{
+  "lang": "en",
+  "words": [
+    "certify",
+    "certification,
+    "certified"
+  ]
+}
