@@ -10,11 +10,13 @@ def create_app():
 
     CORS(app)
     init_extensions(app)
+    print("Database URI:", app.config['SQLALCHEMY_DATABASE_URI'])
+
 
     swagger.init_app(app)
 
     app.register_blueprint(tts_bp, url_prefix='/api')
-    print(app.url_map)
+    
     with app.app_context():
         db.create_all()
 
